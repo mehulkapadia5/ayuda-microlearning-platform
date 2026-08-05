@@ -2,12 +2,20 @@
   "name": "ayuda-microlearning-platform",
   "version": "0.1.0",
   "private": true,
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Edge versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^12.40.0",
+    "lucide-react": "^1.18.0",
     "next": "16.2.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
